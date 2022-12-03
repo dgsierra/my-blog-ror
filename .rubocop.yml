@@ -1,0 +1,6 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'node_modules/**/*'
