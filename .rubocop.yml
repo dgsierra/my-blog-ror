@@ -1,5 +1,7 @@
 AllCops:
   NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 3.x
   Exclude:
     - "db/**/*"
     - "bin/*"
@@ -7,6 +9,7 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+
 
   DisplayCopNames: true
 
