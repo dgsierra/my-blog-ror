@@ -35,9 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
+# 📖 My Awesome Blog! <a name="about-project"></a>
 
 **My Blog on Rails** is a blog where you can create articles, comment on them, and vote on them. It is built with Ruby on Rails.
 
