@@ -43,7 +43,6 @@
 
 - RSpec
 - Rubocop
-- Heroku
 - VSCode
 - GitHub
 - GitFlow
@@ -94,7 +93,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Soon...
+Soon...(dont click the link yet)
 
 - [Live Demo Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
@@ -140,6 +139,7 @@ To run tests, run the following command:
 You can deploy this project using:
 
 - [Heroku](https://www.heroku.com/)
+- [AWS](https://aws.amazon.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,14 +147,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Daniel**
 
 - GitHub: [@dgonzalesi](https://github.com/dgonzalesi/)
 - Twitter: [@dgonzalesi](https://twitter.com/dgonzalesi/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
-- Portfolio: [Portfolio](https://dgonzalesi.github.io/)
 - AngelList: [AngelList](https://angel.co/u/daniel-sierra-13)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,8 +159,6 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Show Data of Number of Posts**
 - [ ] **Improve UI/UX**
@@ -185,8 +180,6 @@ Feel free to check the [issues page](https://github.com/dgonzalesi/my-blog-ror).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project please give it a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -194,8 +187,6 @@ If you like this project please give it a ⭐️!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank to my standup team for their support and motivation and to all Tomorrowland performers for their amazing music.
 
@@ -205,11 +196,9 @@ I would like to thank to my standup team for their support and motivation and to
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **Can i use this project for mine?**
 
-  - Yes feel free to use it.
+  - Yes, feel free to use it.
 
 - **Where is deployed?**
 
