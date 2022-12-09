@@ -8,7 +8,6 @@ RSpec.describe 'Users', type: :request do
 
   it 'returns http success to the list of users' do
     get users_path(id: 1)
-    debugger
     expect(response).to have_http_status(:success)
   end
 
