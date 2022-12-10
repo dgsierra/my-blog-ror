@@ -24,6 +24,11 @@ RSpec.describe 'Post', type: :request do
         expect(response.body).to include("My view for users")
       end
 
+      it 'Checks if the show for posts is rendering' do
+        get user_post_path(1, 1)
+        expect(response).to render_template(:show)
+      end
+
     end
   end
 end
