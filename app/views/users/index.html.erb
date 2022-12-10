@@ -1,1 +1,11 @@
-<h1>My view for users</h1>
+<div class="user-master">
+    <% @users.each do |user| %>
+        <div class="user-container" >
+            <img src="<%= user.photo %>">
+            <div class="text-user">
+                <p class="user-name"><%= user.name %></p>
+                <p class="posts-users">Number of posts: <%= user.posts_counter.nil? ? 0 : user.posts_counter%>
+            </div>
+        </div>
+    <% end %>
+</div>
