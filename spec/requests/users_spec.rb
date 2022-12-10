@@ -16,5 +16,10 @@ RSpec.describe 'Users', type: :request do
     expect(response.cache_control[:private]).to eq(true)
   end
 
+  it 'Check if the view of post of the user are redering in the view' do
+    get "/users/1/posts"
+    expect(response.body).to include("Posts view index")
+  end
+
 
 end

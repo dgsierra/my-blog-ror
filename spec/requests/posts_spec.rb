@@ -19,6 +19,11 @@ RSpec.describe 'Post', type: :request do
       it 'Returns or renders the show template' do
         expect(response).to render_template(:index)
       end
+
+      it 'Checks if the view is rendering' do
+        expect(response.body).to include("My view for users")
+      end
+
     end
   end
 end
