@@ -3,7 +3,7 @@
         <div class="user-container" >
             <img src="<%= user.photo %>">
             <div class="text-user">
-                <p class="user-name"><%= user.name %></p>
+                <%= link_to user.name, user_path(user.id),  class:"user-name" %>
                 <p class="posts-users">Number of posts: <%= user.posts_counter.nil? ? 0 : user.posts_counter%>
             </div>
         </div>

@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
     @users = User.all
-    debugger
+    # debugger
   end
 end
