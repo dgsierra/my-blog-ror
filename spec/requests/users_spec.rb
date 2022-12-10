@@ -15,4 +15,6 @@ RSpec.describe 'Users', type: :request do
     get users_path(id: 1)
     expect(response.cache_control[:private]).to eq(true)
   end
+
+
 end
