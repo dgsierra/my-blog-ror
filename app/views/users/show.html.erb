@@ -1,1 +1,23 @@
-<h1>Users View Template Comment</h1>
+<div class="show-master">
+    <div class="show-container">
+        <img src="<%= @user.photo %>">
+            <div class="show-text-user">
+                <h1><%= @user[:name] %></h1>
+                <p class="show-posts-users">Number of posts: <%= @user.posts_counter.nil? ? 0 : @user.posts_counter%>
+            </div>
+    </div>
+    <div class="show-bio">
+        <h2>Bio</h2>
+        <p><%= @user[:bio] %></p>
+        <% @posts.each_with_index { |post, index| %>
+            <h3> <%= post.title %> #<%= index + 1 %> </h3>
+            <p> <%= if post.text.length > 74
+                        post.text[0..74] + "..."
+                    else
+                        post.text
+                    end
+            %> </p>
+        <% } %>
+    <div>
+<div>
+<%# !todo: variables to use :title, :text, :comments_counter, :likes_counter, :created_at %>
