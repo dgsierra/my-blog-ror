@@ -154,6 +154,12 @@ You can deploy this project using:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
 - AngelList: [AngelList](https://angel.co/u/daniel-sierra-13)
 
+👤 **Luca Benavente**
+
+- GitHub: [@lucabenaventew](https://github.com/lucabenaventew)
+- Twitter: [@BenaventeLuca](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/lucabenaventew)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
