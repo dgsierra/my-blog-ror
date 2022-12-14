@@ -1,0 +1,16 @@
+.user-info-posts {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: aqua;
+}
+
+.show-text-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

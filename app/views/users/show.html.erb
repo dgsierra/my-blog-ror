@@ -20,6 +20,6 @@
             %> </p>
         <% } %>
     <div>
-    <%= button_to "See All Posts", user_posts_path(@user) %>
+    <%= button_to "See All Posts", user_posts_path(@user), method: :get %>
 <div>
 <%# !todo: variables to use :title, :text, :comments_counter, :likes_counter, :created_at %>
