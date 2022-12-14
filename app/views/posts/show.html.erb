@@ -1,1 +1,10 @@
-<h1>Posts Show File</h1>
+<div class="master-cointer-post-show">
+    <div class="post-show-container">
+        <img src="<%= @user.photo %>">
+        <div class="show-text-user">
+            <h1><%= @user[:name] %></h1>
+            <p class="show-posts-users">Number of posts: <%= @user.posts_counter.nil? ? 0 : @user.posts_counter%>
+        </div>
+    </div>
+
+</div>
