@@ -6,10 +6,11 @@
                 <p class="show-posts-users">Number of posts: <%= @user.posts_counter.nil? ? 0 : @user.posts_counter%>
             </div>
     </div>
+    <% limit = 2%>
     <div class="show-bio">
         <h2>Bio</h2>
         <p><%= @user[:bio] %></p>
-        <% @posts.each_with_index { |post, index| %>
+        <% @posts[0..limit].each_with_index { |post, index| %>
             <h3> <%= post.title %> #<%= index + 1 %> </h3>
             <p> <%= if post.text.length > 74
                         post.text[0..74] + "..."
@@ -19,5 +20,6 @@
             %> </p>
         <% } %>
     <div>
+    <%= button_to "See All Posts", user_posts_path(@user) %>
 <div>
 <%# !todo: variables to use :title, :text, :comments_counter, :likes_counter, :created_at %>
