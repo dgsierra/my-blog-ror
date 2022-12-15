@@ -30,6 +30,8 @@ gem 'stimulus-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
+gem 'xmpp4r'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -62,6 +64,8 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'annotate'
   gem 'web-console'
+  gem 'bullet'
+  # gem 'xmpp4r'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"

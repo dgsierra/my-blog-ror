@@ -9,5 +9,6 @@ class PostsController < ApplicationController
     @posts = Post.order(created_at: :desc).limit(3)
     @comments = @post.comments
     @user = @post.author
+    # debugger
   end
 end
